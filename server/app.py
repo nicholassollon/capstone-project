@@ -159,8 +159,8 @@ def newTag():
     if session.get('user_id'):
         if request.method == 'POST':
             newtag = Tag(name=request.get_json()['name'])
-            session.add(newtag)
-            session.commit()
+            db.session.add(newtag)
+            db.session.commit()
             response = make_response(newtag, 201)
             return response
 

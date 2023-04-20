@@ -68,15 +68,15 @@ function SongList() {
   }
 
   function newTag(title) {
-
+console.log(title)
     if (title.replace(/\s/g, '').length > 0)
-      fetch(`/tags`, {
+      fetch(`/newtag`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({ name: title })
-      }).then(window.location.href = "/yoursongs")
+      }).then((r)=>console.log(r))
         .catch(error => {
           console.error(error);
         });

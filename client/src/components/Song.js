@@ -24,8 +24,6 @@ function Song() {
     return  <div className="song-container">
       <h1 className="song-title">{song.title}</h1>
       <div className="song-info">
-        <p>{song.artist}</p>
-        <p>{song.album}</p>
       </div>
       <Lyrics song={song} />
       <div className="audio-player">

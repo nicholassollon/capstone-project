@@ -48,7 +48,6 @@ input[type="submit"] {
 }
 
 input[type="text"],
-input[type="email"],
 input[type="password"] {
     background-color: #1e2a47;
     color: #fff;
