@@ -1,0 +1,59 @@
+#greeting {
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 0px 4px 5px rgba(12, 47, 70, 0.86);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: lightblue;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.about {
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 0px 4px 5px rgba(12, 47, 70, 0.86);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: lightblue;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    max-width: 400px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#linkedin{
+    margin-left: 37%;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 0px 4px 5px rgba(12, 47, 70, 0.86);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: lightblue;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    max-width: 400px;
+}

@@ -1,0 +1,43 @@
+.NavBar {
+    position: fixed;
+}
+
+#open {
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    z-index: 999;
+    font-weight: bold;
+    background: #2BCE99;
+    background: -moz-linear-gradient(top, #2BCE99 0%, #0FA3A4 51%, #2DC5B2 100%);
+    background: -webkit-linear-gradient(top, #2BCE99 0%, #0FA3A4 51%, #2DC5B2 100%);
+    background: linear-gradient(to bottom, #2BCE99 0%, #0FA3A4 51%, #2DC5B2 100%);
+    background: linear-gradient(to bottom, #2BCEa9 0%, #0FA3A4 51%, #2DC5B2 100%);
+
+}
+
+.NavBar a {
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.NavBar a:hover {
+    background-color: #f2f2f2;
+}
+
+.NavBar a:first-child {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.NavBar a:not(:first-child) {
+    margin-top: 80px;
+}
